@@ -20,6 +20,7 @@ exports[`matches previous snapshot 1`] = `
         "flex": 1,
         "marginRight": 8,
         "paddingHorizontal": 12,
+        "paddingVertical": 12,
       }
     }
   />

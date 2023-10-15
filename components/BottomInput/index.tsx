@@ -5,6 +5,7 @@ import {
   StyleSheet,
   TextInput,
   TextInputProps,
+  Platform,
 } from 'react-native';
 
 interface BottomInputProps extends TextInputProps {
@@ -39,6 +40,7 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#fff',
     borderRadius: 12,
+    paddingVertical: Platform.OS === 'ios' ? 12 : 0,
     paddingHorizontal: 12,
     marginRight: 8,
   },
